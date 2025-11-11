@@ -1,0 +1,46 @@
+// X.com Color Scheme - 2024
+// Primary Colors
+$color-primary: #000000;
+$color-secondary: #ffffff;
+$color-bg: #ffffff;
+$color-bg-dark: #000000;
+
+// Text Colors
+$color-text-primary: #000000;
+$color-text-secondary: #536471;
+$color-text-muted: #71767b;
+$color-text-inverse: #ffffff;
+
+// Border and Divider Colors
+$color-border: #e7e9ea;
+$color-border-dark: #2f3336;
+$color-hr: #e7e9ea;
+$color-hr-dark: #2f3336;
+
+// Interactive Colors
+$color-hover: rgba(0, 0, 0, 0.03);
+$color-hover-dark: rgba(255, 255, 255, 0.03);
+$color-active: rgba(0, 0, 0, 0.1);
+$color-active-dark: rgba(255, 255, 255, 0.1);
+
+// Action Colors (X.com style)
+$tweet-action-blue: #1d9bf0;
+$tweet-action-green: #00ba7c;
+$tweet-action-red: #f91880;
+$tweet-action-yellow: #ffd400;
+
+// Legacy support (for gradual migration)
+$color-blue: $tweet-action-blue;
+$color-black: $color-primary;
+$color-dark-gray: $color-text-secondary;
+$color-light-gray: $color-text-muted;
+$color-extra-light-gray: $color-border;
+$color-extra-extra-light-gray: #f7f9fa;
+
+// Shadows
+$shadow-light: 0px 0px 1rem 0px rgba(0, 0, 0, 0.1);
+$shadow-dark: 0px 0px 1rem 0px rgba(255, 255, 255, 0.1);
+
+// Borders
+$border-light: 1px solid $color-border;
+$border-dark: 1px solid $color-border-dark;
